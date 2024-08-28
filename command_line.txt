@@ -1,0 +1,19 @@
+💡Django 가상환경 실행💡
+1. pwd = ~/Desktop/melong/Groom/KDC/django_mldl/django_env/bin
+2. command = source ./activate
+
+💡Django 프로잭트 생성💡
+django-admin startproject [프로잭트 이름]
+
+💡Django 서버 실행💡
+1. pwd = ~/Desktop/melong/Groom/KDC/django_mldl/site_1
+2. command = python manage.py runserver [서버포트번호 default = 8000]
+
+💡models.py를 수정하고나서 스키마에 반영💡
+1. pwd = ~/Desktop/melong/Groom/KDC/django_mldl/site_1
+2. cmd
+    python manage.py makemigrations
+    python manage.py migrate
+
+💡css와 같은 static file 생성 후 반영💡
+python manage.py collectstatic
