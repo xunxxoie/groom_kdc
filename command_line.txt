@@ -15,5 +15,5 @@ django-admin startproject [프로잭트 이름]
     python manage.py makemigrations
     python manage.py migrate
 
-💡css와 같은 static file 생성 후 반영💡
-python manage.py collectstatic
+💡css와 같은 static file 추가/삭제 후 반영💡
+python manage.py collectstaticks

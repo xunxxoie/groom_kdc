@@ -1,4 +1,4 @@
-#!/Users/xunsseoie/Desktop/melong/Groom/KDC/django_mldl/django_env/bin/python
+#!/Users/xunsseoie/Desktop/melong/Groom/KDC/django_mldl/django_env/bin/python3.11
 # When the django-admin.py deprecation ends, remove this script.
 import warnings
 
